@@ -1,0 +1,27 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://MIO/Items/Tipos/items_niveles_upgrades.gd" type="Script" id=1]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/Tank/tankiconselected.png" type="Texture" id=2]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/Tank/tankicongray-50syv.png" type="Texture" id=3]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/Tank/tankicon.png" type="Texture" id=4]
+
+[resource]
+script = ExtResource( 1 )
+NOMBRE = ""
+DESCRIPCION = "+100% Size
++50% Max HP
+-20% Fire Rate"
+TEXTURA = ExtResource( 4 )
+grupo = 2
+TexturaGray = ExtResource( 3 )
+TexturaSelected = ExtResource( 2 )
+max_level = 4
+curr_level = 2
+modif = "Size"
+cuanto = 100.0
+modif2 = "MaxHP"
+cuanto2 = 50.0
+modif3 = "FireRate"
+cuanto3 = -20.0
+modif4 = ""
+cuanto4 = 0.0

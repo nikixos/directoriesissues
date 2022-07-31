@@ -1,0 +1,27 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://MIO/Items/Tipos/items_niveles_upgrades.gd" type="Script" id=1]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/Swift/swifticonselected22727.png" type="Texture" id=2]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/Swift/swifticon.png" type="Texture" id=3]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/Swift/swifticongray.png" type="Texture" id=4]
+
+[resource]
+script = ExtResource( 1 )
+NOMBRE = ""
+DESCRIPCION = "+25% Reload Rate
++15% Movement Speed
+-25% Max HP"
+TEXTURA = ExtResource( 3 )
+grupo = 0
+TexturaGray = ExtResource( 4 )
+TexturaSelected = ExtResource( 2 )
+max_level = 4
+curr_level = 3
+modif = "ReloadRate"
+cuanto = -25.0
+modif2 = "MovementSpeed"
+cuanto2 = 15.0
+modif3 = "MaxHP"
+cuanto3 = -25.0
+modif4 = ""
+cuanto4 = 0.0

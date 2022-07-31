@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://MIO/Items/Tipos/items_niveles_upgrades.gd" type="Script" id=1]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/fuegoIcon1.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+NOMBRE = "Pyro Mage"
+DESCRIPCION = "Your bullets have a 50% chance to inflict Burn for 3 damage per second."
+TEXTURA = ExtResource( 2 )
+grupo = 0
+nivel = 1
+maximonivel = 4
+modif = ""
+cuanto = 0.0
+modif2 = ""
+cuanto2 = 0.0
+modif3 = ""
+cuanto3 = 0.0
+modif4 = ""
+cuanto4 = 0.0

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://MIO/Items/Tipos/items_niveles_upgrades.gd" type="Script" id=1]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/Damage/damageicon.png" type="Texture" id=2]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/Damage/damageiconselected.png" type="Texture" id=3]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/Damage/damageicongray.png" type="Texture" id=4]
+
+[resource]
+script = ExtResource( 1 )
+NOMBRE = "Destruction"
+DESCRIPCION = "+20% Knockback
++30% Bullet Damage
+-20% Max HP"
+TEXTURA = ExtResource( 2 )
+grupo = 1
+TexturaGray = ExtResource( 4 )
+TexturaSelected = ExtResource( 3 )
+max_level = 4
+curr_level = 2
+modif = "Knockback"
+cuanto = 20.0
+modif2 = "Damage"
+cuanto2 = 30.0
+modif3 = "MaxHP"
+cuanto3 = -20.0
+modif4 = ""
+cuanto4 = 0.0

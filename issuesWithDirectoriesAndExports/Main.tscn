@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+
+[node name="Main" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="IMAGES" type="HBoxContainer" parent="."]
+margin_left = 124.0
+margin_top = 52.0
+margin_right = 868.0
+margin_bottom = 209.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 431.0
+margin_top = 20.0
+margin_right = 573.0
+margin_bottom = 75.0
+text = "IMAGES IN FOLDER"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 432.0
+margin_top = 278.0
+margin_right = 527.0
+margin_bottom = 292.0
+text = "RES IN FOLDER"
+
+[node name="RES" type="HBoxContainer" parent="."]
+margin_left = 173.0
+margin_top = 324.0
+margin_right = 789.0
+margin_bottom = 548.0
+
+[node name="Label" type="Label" parent="RES"]
+margin_top = 105.0
+margin_bottom = 119.0

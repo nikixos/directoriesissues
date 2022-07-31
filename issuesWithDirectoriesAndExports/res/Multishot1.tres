@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://MIO/Items/Tipos/items_niveles_upgrades.gd" type="Script" id=1]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/MultiShot/multishoticongray.png" type="Texture" id=2]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/MultiShot/multishoticon.png" type="Texture" id=3]
+[ext_resource path="res://MIO/Items/Assets/IconosNiveles/MultiShot/multishoticonselected.png" type="Texture" id=4]
+
+[resource]
+script = ExtResource( 1 )
+NOMBRE = "multishot"
+DESCRIPCION = "+2 Proyectiles per shot
+ -25% Movement Speed"
+TEXTURA = ExtResource( 3 )
+grupo = 3
+TexturaGray = ExtResource( 2 )
+TexturaSelected = ExtResource( 4 )
+max_level = 4
+curr_level = 1
+modif = "Proyectiles"
+cuanto = 2.0
+modif2 = "MovementSpeed"
+cuanto2 = -25.0
+modif3 = ""
+cuanto3 = 0.0
+modif4 = ""
+cuanto4 = 0.0
